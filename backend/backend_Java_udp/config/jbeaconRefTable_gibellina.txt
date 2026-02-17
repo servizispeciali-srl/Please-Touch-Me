@@ -1,0 +1,260 @@
+{
+  "13Lb01zB": {
+    "pos": 0,
+    "type": "ibeacon",
+    "course": 3,
+    "enter": -80,
+    "exit": -85,
+    "expireTime": 12000,
+    "content": {
+      "it": {
+        "title": "Gibellina nella Storia",
+        "resource": "13Lb01zB_it.mp3"
+      },
+      "en": {
+        "title": "Gibellina in History",
+        "resource": "13Lb01zB_en.mp3"
+      }
+    }
+  },
+  "13LV01y6": {
+    "pos": 1,
+    "type": "ibeacon",
+    "course": 7,
+    "enter": -80,
+    "exit": -85,
+    "retry": 1,
+    "expireTime": 12000,
+    "content": {
+      "it": {
+        "title": "Gibellina prima del Terremoto",
+        "resource": "13LV01y6_it.mp3"
+      },
+      "en": {
+        "title": "Gibellina before the HearthQuake",
+        "resource": "13LV01y6_en.mp3"
+      }
+    }
+  },
+  "13LQ01y1": {
+    "pos": 2,
+    "type": "ibeacon",
+    "course": 11,
+    "enter": -80,
+    "exit": -85,
+    "retry": 1,
+    "expireTime": 12000,
+    "content": {
+      "it": {
+        "title": "Il drammatico Sisma del 1968",
+        "resource": "13LQ01y1_it.mp3"
+      },
+      "en": {
+        "title": "The dramatic EarthQuake of 1968",
+        "resource": "13LQ01y1_en.mp3"
+      }
+    }
+  },
+  "13Lb01yC": {
+    "pos": 3,
+    "type": "ibeacon",
+    "course": 15,
+    "enter": -80,
+    "exit": -85,
+    "retry": 1,
+    "expireTime": 12000,
+    "content": {
+      "it": {
+        "title": "Gibellina rinasce attraverso l'arte",
+        "resource": "13Lb01yC_it.mp3"
+      },
+      "en": {
+        "title": "Gibellina reborn through Art",
+        "resource": "13Lb01yC_en.mp3"
+      }
+    }
+  },
+  "13LL01xy": {
+    "pos": 4,
+    "type": "ibeacon",
+    "course": 19,
+    "enter": -80,
+    "exit": -85,
+    "retry": 1,
+    "expireTime": 12000,
+    "content": {
+      "it": {
+        "title": "Il Dono dell'arte",
+        "resource": "13LL01xy_it.mp3"
+      },
+      "en": {
+        "title": "The Gift of Art",
+        "resource": "13LL01xy_en.mp3"
+      }
+    }
+  },
+  "RTNode1": {
+    "pos": 5,
+    "type": "node",
+    "course": 28,
+    "enter": -80,
+    "exit": -84,
+    "retry": 2,
+    "expireTime": 12000,
+    "content": {
+      "it": {
+        "title": "La Notte di Gibellina",
+        "resource": "RTNode1_it.mp4",
+        "sensor1": "RTNode1_1_it.mp4",
+        "sensor2": "RTNode1_2_it.mp4",
+        "sensor3": "RTNode1_3_it.mp4",
+        "sensor4": "RTNode1_4_it.mp4",
+        "sensor5": "Mano_it.mp4"
+      },
+      "en": {
+        "title": "La Notte di Gibellina",
+        "resource": "RTNode1_en.mp3",
+        "sensor1": "RTNode1_1_en.mp3",
+        "sensor2": "RTNode1_2_en.mp3",
+        "sensor3": "RTNode1_3_en.mp3",
+        "sensor4": "RTNode1_4_en.mp3",
+        "sensor5": "Mano_en.mp4"
+      }
+    }
+  },
+  "RTNode2": {
+    "pos": 6,
+    "type": "node",
+    "course": 31,
+    "enter": -80,
+    "exit": -84,
+    "retry": 2,
+    "expireTime": 12000,
+    "content": {
+      "it": {
+        "title": "Onda Neonata",
+        "resource": "RTNode2_it.mp4",
+        "sensor1": "RTNode2_2_it.mp4",
+        "sensor2": "RTNode2_3_it.mp4",
+        "sensor3": "RTNode2_4_it.mp4",
+        "sensor4": "RTNode2_1_it.mp4"
+      },
+      "en": {
+        "title": "Onda Neonata",
+        "resource": "RTNode2_en.mp3",
+        "sensor1": "RTNode2_2_en.mp3",
+        "sensor2": "RTNode2_3_en.mp3",
+        "sensor3": "RTNode2_4_en.mp3",
+        "sensor4": "RTNode2_1_en.mp3"
+      }
+    }
+  },
+  "RTNode3": {
+    "pos": 7,
+    "type": "node",
+    "course": 34,
+    "enter": -80,
+    "exit": -84,
+    "retry": 2,
+    "expireTime": 12000,
+    "content": {
+      "it": {
+        "title": "Immagine di Spazio Sincrono",
+        "resource": "RTNode3_it.mp4",
+        "sensor1": "RTNode3_3_it.mp4",
+        "sensor2": "RTNode3_4_it.mp4",
+        "sensor3": "RTNode3_1_it.mp4",
+        "sensor4": "RTNode3_2_it.mp4"
+      },
+      "en": {
+        "title": "Immagine di Spazio Sincrono",
+        "resource": "RTNode3_en.mp3",
+        "sensor1": "RTNode3_3_en.mp3",
+        "sensor2": "RTNode3_4_en.mp3",
+        "sensor3": "RTNode3_1_en.mp3",
+        "sensor4": "RTNode3_2_en.mp3"
+      }
+    }
+  },
+  "RTNode4": {
+    "pos": 8,
+    "type": "node",
+    "course": 37,
+    "enter": -80,
+    "exit": -84,
+    "retry": 3,
+    "expireTime": 12000,
+    "content": {
+      "it": {
+        "title": "La Grande Testa",
+        "resource": "RTNode4_it.mp4",
+        "sensor1": "RTNode4_3_it.mp4",
+        "sensor2": "RTNode4_1_it.mp4",
+        "sensor3": "RTNode4_4_it.mp4",
+        "sensor4": "RTNode4_2_it.mp4"
+      },
+      "en": {
+        "title": "La Grande Testa",
+        "resource": "RTNode4_en.mp3",
+        "sensor1": "RTNode4_3_en.mp3",
+        "sensor2": "RTNode4_1_en.mp3",
+        "sensor3": "RTNode4_4_en.mp3",
+        "sensor4": "RTNode4_2_en.mp3"
+      }
+    }
+  },
+  "RTNode5": {
+    "pos": 9,
+    "type": "node",
+    "course": 40,
+    "enter": -80,
+    "exit": -84,
+    "retry": 3,
+    "expireTime": 12000,
+    "content": {
+      "it": {
+        "title": "Autoritratto",
+        "resource": "RTNode5_it.mp4",
+        "sensor1": "RTNode5_3_it.mp4",
+        "sensor2": "RTNode5_2_it.mp4",
+        "sensor3": "RTNode5_4_it.mp4",
+        "sensor4": "RTNode5_1_it.mp4"
+      },
+      "en": {
+        "title": "Autoritratto",
+        "resource": "RTNode5_en.mp3",
+        "sensor1": "RTNode5_3_en.mp3",
+        "sensor2": "RTNode5_2_en.mp3",
+        "sensor3": "RTNode5_4_en.mp3",
+        "sensor4": "RTNode5_1_en.mp3"
+      }
+    }
+  },
+  "RTNode6": {
+    "pos": 10,
+    "type": "node",
+    "course": 43,
+    "enter": -80,
+    "exit": -85,
+    "retry": 3,
+    "expireTime": 12000,
+    "content": {
+      "it": {
+        "title": "Il Cretto",
+        "resource": "RTNode6_it.mp4",
+        "sensor1": "RTNode6_3_it.mp4",
+        "sensor2": "RTNode6_4_it.mp4",
+        "sensor3": "RTNode6_1_it.mp4",
+        "sensor4": "RTNode6_2_it.mp4"
+      },
+      "en": {
+        "title": "Il Cretto",
+        "resource": "RTNode6_en.mp3",
+        "sensor1": "RTNode6_3_en.mp3",
+        "sensor2": "RTNode6_4_en.mp3",
+        "sensor3": "RTNode6_1_en.mp3",
+        "sensor4": "RTNode6_2_en.mp3"
+      }
+    }
+  }
+}

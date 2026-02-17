@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "http://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/xml/doc-files/log4j.dtd">
+<log4j:configuration debug="false" xmlns:log4j="http://jakarta.apache.org/log4j/">
+   <appender name="FileAppender" class="org.apache.log4j.RollingFileAppender">
+     <param name="File" value="/var/log/DL/BeaconDL.log"/>
+     <param name="Append" value="true"/>
+     <param name="MaxFileSize" value="2MB"/> 
+     <param name="MaxBackupIndex" value="2"/> 
+     <layout class="org.apache.log4j.PatternLayout">
+       <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS},%m%n"/>
+     </layout>	    
+   </appender>
+   <appender name="ConsoleAppender" class="org.apache.log4j.ConsoleAppender">      
+      <param name="Target" value="System.out"/>
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern" value="%d{ABSOLUTE} %-5p [%c{1}] %m%n"/>
+      </layout>
+   </appender>
+   <logger name="BeaconDL" additivity="false">
+        <level value="DEBUG"/>
+        <appender-ref ref="FileAppender"/>
+   </logger>
+   <logger name="ConsoleLogger" additivity="false">
+        <level value="DEBUG"/>
+        <appender-ref ref="ConsoleAppender"/>
+   </logger>
+   <root>
+     <priority value ="DEBUG" />
+     <appender-ref ref="ConsoleAppender"/>
+   </root>
+</log4j:configuration>

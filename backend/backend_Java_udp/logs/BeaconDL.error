@@ -1,0 +1,8 @@
+Exception in thread "main" java.lang.NoClassDefFoundError: org/apache/log4j/xml/DOMConfigurator
+	at beaconserver.BeaconDL.main(BeaconDL.java:35)
+Caused by: java.lang.ClassNotFoundException: org.apache.log4j.xml.DOMConfigurator
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 1 more

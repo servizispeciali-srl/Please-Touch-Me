@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  beacon-dl:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: beacon-dl-app
+    container_name: beacon-dl
+    #volumes:
+      #- ./app_data:/home/servizi/DL/data
+      #- ./app_config:/home/servizi/DL/config
+      #- ./logs:/var/log/DL
+    restart: unless-stopped  # Riavvia automaticamente in caso di crash
