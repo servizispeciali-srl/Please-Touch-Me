@@ -1,0 +1,12 @@
+<?xml version ="1.0" encoding ="utf-8"?><!--  Learn More about how to use App Actions: https://developer.android.com/guide/actions/index.html -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Void">
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Network">
+            <EditTextPreference
+                android:key="key_dl_ip"
+                android:summary="192.168.0.220"
+                android:defaultValue="192.168.0.220"
+                android:title="Local Server URI" />
+    </PreferenceCategory>
+</PreferenceScreen>
